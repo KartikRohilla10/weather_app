@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #333;
+  padding: 17px;
+}
+
+.navbarList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbarItem {
+  margin-right: 20px;
+}
+
+.navbarItem:last-child {
+  margin-right: 0;
+}
+
+.navbarItem a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .navbarItem a:hover {
+  text-decoration: overline underline;
+} */
