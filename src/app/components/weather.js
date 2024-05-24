@@ -58,7 +58,9 @@ const Weather = () => {
       </form>
       {weather && (
         <div>
-          <h2>{weather.name}</h2>
+          <h2>
+            {weather.name},{weather.sys.country}
+          </h2>
           <img src={getWeatherIconUrl(weather.weather[0].icon)}></img>
           <p>
             {weather.weather[0].description.charAt(0).toUpperCase() +

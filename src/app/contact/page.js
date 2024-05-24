@@ -43,7 +43,14 @@ export default function Contact() {
           <label htmlFor="message">Message:</label>
           <textarea id="message" name="message" rows="2.5" required></textarea>
 
-          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            style={{
+              marginLeft: "7px",
+            }}
+          >
+            Submit
+          </button>
         </form>
       </div>
     </>
